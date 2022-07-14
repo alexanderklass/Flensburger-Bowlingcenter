@@ -1,21 +1,31 @@
 body{
     font-family: Lato;
 }
-
 .bowling-rotation{
-    margin-top: 45px;
-    margin-left: 40px;
     width: 60px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    animation: myfirst 1.5s infinite linear;
+    animation: bowling 1.5s infinite linear;
 }
-@keyframes myfirst{
+@keyframes bowling{
     0%{
-        transform: translate(-50%,-50%) rotate(0deg);
+        transform: rotate(0deg);
     }
     100%{
-        transform: translate(-50%,-50%) rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+.transition{
+    animation: transitionIn 0.75s ;
+}
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(0);
     }
 }
