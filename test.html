@@ -8,41 +8,51 @@
     <link rel="stylesheet" href="style/dark-mode.css">
     <link rel="icon" href="img/tab-icon.png">
     <link rel="stylesheet" href="style/style.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="JavaScript/bootstrap-5.2.0.min.js"></script>
     <title>Flensburger Bowlingcenter - Bowling & Gastronomie</title>
 </head>
 <body>
-    <div class="card text-bg-primary mb-3" style="max-width: 30rem;">
-        <div class="card-header bg-primary text-center">
-            <h3>Disco Bowling</h3>
-        </div>
-        <div class="container bg-dark text-light rounded p-4">
-            <div class="text-center text-primary my-3">
-                <h4>FREITAGS AB 21 UHR & SAMSTAGS AB 20 UHR</h4>
-            </div>
-            <div class="flex-colum mt-5">
-                <h5>
-                   Wir spielen bei Schwarzlicht und toller Musik, aus den 70er, 80er, 90er
-                   und 2000er Jahren, in gemütlicher Runde. Denkt bitte an eine rechtzeitige
-                   Buchung, da das Disco Bowling sehr beliebt ist. 
-                </h5>
-                <h5>
-                    Findet ihr heraus, was es mit dem roten Pin auf sich hat?
-                </h5>
-            </div>
-            <div class="d-flex justify-content-center">
-                <div class="col mt-5 pb-2">
-                    <h6 class="m-0">PREIS:</h6>
-                    <h6 class="m-0">27,-€ PRO BAHN / STUNDE</h6>
-                    <h6 class="m-0">SCHUHE INKLUSIVE!</h6>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <div class="d-lg-flex justify-content-center">
+                <a href="index.html">
+                    <button class="btn btn-primary btn-sm m-1">Start</button>
+                </a>
+                <a href="öffnungszeiten.html">
+                    <button class="btn btn-primary btn-sm m-1">Öffnungszeiten & Preise</button>
+                </a>
+                <div class="dropdown">
+                    <button type="button" class="btn btn-sm m-1 btn-primary dropdown-toggle" id="dropdownMenuOffset" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+                      Gastronomie
+                    </button>
+                    <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuOffset">
+                      <li><a class="dropdown-item bg-dark text-light" href="gastronomie.html">Ambiente</a></li>
+                      <li><a class="dropdown-item bg-dark text-light" href="Speisen&Getränke.html">Speisen & Getränke</a></li>
+                    </ul>
                 </div>
-                <div>
-                    <img src="img/redpin-100px.png" class="text-center">
-                </div>
+                <a href="disco_bowling.html">
+                <button class="btn btn-primary btn-sm m-1">Disco Bowling</button>
+                </a>
+                <a href="veranstaltungen.html">
+                    <button class="btn btn-primary btn-sm m-1">Veranstaltungen</button>
+                </a>
+                <a href="events2022.html">
+                    <button class="btn btn-primary btn-sm m-1">Events 2022</button>
+                </a>
+                <a href="Betriebssport.html">
+                    <button class="btn btn-primary btn-sm m-1">Betriebssport & Freizeit</button>
+                </a>
+                <!--
+                <a>
+                    <button class="btn btn-secondary btn-sm m-1" disabled>Bahn Buchen</button>
+                </a>
+                -->
             </div>
+          </div>
         </div>
-      </div>
+      </nav>
 </body>
