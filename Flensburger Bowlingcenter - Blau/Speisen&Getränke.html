@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/dark-mode.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="img/tab-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="JavaScript/bootstrap-5.2.0.min.js" defer></script>
+    <script src="JavaScript/jquery-3.2.1.slim.min.js" defer></script>
+    <title>Speisen & Getränke</title>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-md bg-dark text-light">
+        <div class="container justify-content-center">
+            <div class="d-flex justify-content-center">
+                <div class="d-flex">   
+                    <div>
+                        <img src="img/bowling-75px.png">
+                    </div>
+                    <div class="col">
+                        <div>
+                            <h3 class="my-0">Flensburger Bowlingcenter</h3>
+                        </div>
+                        <div>
+                            <h5 class="text-primary my-0">Bowling & Gastronomie</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex row text-center">
+                    <div>
+                        <a href="https://www.instagram.com/flensburgerbowlingcenter/?hl=de">
+                            <img src="img/instagram-white.png">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://de-de.facebook.com/FlensburgerBowlingcenter/">
+                            <img src="img/facebook-white.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+              <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                  <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                      <div class="d-lg-flex justify-content-center">
+                          <a href="index.html">
+                              <button class="btn btn-primary btn-sm m-1">Start</button>
+                          </a>
+                          <a href="öffnungszeiten.html">
+                              <button class="btn btn-primary btn-sm m-1">Öffnungszeiten & Preise</button>
+                          </a>
+                          <div class="dropdown">
+                              <button type="button" class="btn btn-sm m-1 btn-primary dropdown-toggle" id="dropdownMenuOffset" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+                                Gastronomie
+                              </button>
+                              <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuOffset">
+                                <li><a class="dropdown-item bg-dark text-light" href="gastronomie.html">Ambiente</a></li>
+                                <li><a class="dropdown-item bg-dark text-light" href="Speisen&Getränke.html">Speisen & Getränke</a></li>
+                              </ul>
+                          </div>
+                          <a href="disco_bowling.html">
+                          <button class="btn btn-primary btn-sm m-1">Disco Bowling</button>
+                          </a>
+                          <a href="veranstaltungen.html">
+                              <button class="btn btn-primary btn-sm m-1">Veranstaltungen</button>
+                          </a>
+                          <a href="events2022.html">
+                              <button class="btn btn-primary btn-sm m-1">Events 2022</button>
+                          </a>
+                          <a href="Betriebssport.html">
+                              <button class="btn btn-primary btn-sm m-1">Betriebssport & Freizeit</button>
+                          </a>
+                          <!--
+                          <a>
+                              <button class="btn btn-secondary btn-sm m-1" disabled>Bahn Buchen</button>
+                          </a>
+                          -->
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+          </div>
+        </div>
+    </nav>
+
+    <!--Darkmode-->
+    <div class="d-flex justify-content-end">
+        <div class="form-check form-switch mx-3 my-3">
+            <input type="checkbox" class="form-check-input" id="darkSwitch" />
+            <label class="custom-control-label" for="darkSwitch"><b>Nachtmodus</b></label>
+          </div>
+          <script src="JavaScript/dark-mode-switch.min.js"></script>
+    </div>
+
+    <!--Main-->
+    <section class="transition">
+        <div class="container">
+            <h2>Burger Gerichte</h2>
+        </div>
+
+        <div class="container">
+            <div class="card-group">
+                <div class="card">
+                  <img src="img/burger-400px.png" class="card-img-top">
+                  <div class="card-body bg-dark text-light">
+                    <h5 class="card-title">Hamburger</h5>
+                    <p class="card-text">Ein Übetrieben geiler Cheese Burger den jeder mal probieren muss weil er richtig geil ist. Da kommt jeder auf seinen Geschmack</p>
+                    <h5>7,50 €</h5>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="img/burger-400px.png" class="card-img-top">
+                  <div class="card-body bg-dark text-light">
+                    <h5 class="card-title">Cheese Burger</h5>
+                    <p class="card-text">Ein Übetrieben geiler Cheese Burger den jeder mal probieren muss weil er richtig geil ist. Da kommt jeder auf seinen Geschmack</p>
+                    <h5>12,50 €</h5>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="img/burger-400px.png" class="card-img-top">
+                  <div class="card-body bg-dark text-light">
+                    <h5 class="card-title">Veggieburger</h5>
+                    <p class="card-text">Ein Übetrieben geiler CheeseBurger den jeder mal probieren muss weil er richtig geil ist. Da kommt jeder auf seinen Geschmack</p>
+                    <h5>9,50 €</h5>
+                  </div>
+                </div>
+                <div class="card">
+                    <img src="img/pommes.png" class="card-img-top">
+                    <div class="card-body bg-dark text-light">
+                      <h5 class="card-title">Pommes</h5>
+                      <p class="card-text">Ein Übetrieben geiler CheeseBurger den jeder mal probieren muss weil er richtig geil ist. Da kommt jeder auf seinen Geschmack</p>
+                      <h5>2,50 €</h5>
+                    </div>
+                  </div>
+              </div>
+        </div>
+
+        <div class="container mt-5">
+            <h2>Pizza Gerichte</h2>
+        </div>
+
+        <div class="container">
+            <div class="card-group">
+                <div class="card">
+                  <img src="img/Pizza.png" class="card-img-top">
+                  <div class="card-body bg-dark text-light">
+                    <h5 class="card-title">Margherita</h5>
+                    <p class="card-text">Ein Übetrieben geiler Cheese Burger den jeder mal probieren muss weil er richtig geil ist. Da kommt jeder auf seinen Geschmack</p>
+                    <h5 class="m-0">Klein: 7,50 €</h5>
+                    <h5>Groß: 8,50 € </h5>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="img/Pizza.png" class="card-img-top">
+                  <div class="card-body bg-dark text-light">
+                    <h5 class="card-title">Salami</h5>
+                    <p class="card-text">Ein Übetrieben geiler Cheese Burger den jeder mal probieren muss weil er richtig geil ist. Da kommt jeder auf seinen Geschmack</p>
+                    <h5 class="m-0">Klein: 8,90 €</h5>
+                    <h5>Groß: 10,90 €</h5>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="img/Pizza.png" class="card-img-top">
+                  <div class="card-body bg-dark text-light">
+                    <h5 class="card-title">Schinken</h5>
+                    <p class="card-text">Ein Übetrieben geiler CheeseBurger den jeder mal probieren muss weil er richtig geil ist. Da kommt jeder auf seinen Geschmack</p>
+                    <h5 class="m-0">Klein: 8,90 €</h5>
+                    <h5>Groß: 10,90 €</h5>
+                  </div>
+                </div>
+                <div class="card">
+                    <img src="img/Pizza.png" class="card-img-top">
+                    <div class="card-body bg-dark text-light">
+                      <h5 class="card-title">Thunfisch</h5>
+                      <p class="card-text">Ein Übetrieben geiler CheeseBurger den jeder mal probieren muss weil er richtig geil ist. Da kommt jeder auf seinen Geschmack</p>
+                      <h5 class="m-0">Klein: 8,90 €</h5>
+                      <h5>Groß: 10,90 €</h5>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="img/Pizza.png" class="card-img-top">
+                    <div class="card-body bg-dark text-light">
+                      <h5 class="card-title">Gemüse</h5>
+                      <p class="card-text">Ein Übetrieben geiler CheeseBurger den jeder mal probieren muss weil er richtig geil ist. Da kommt jeder auf seinen Geschmack</p>
+                      <h5 class="m-0">Klein: 7,90 €</h5>
+                      <h5>Groß: 9,50 €</h5>
+                    </div>
+                  </div>
+              </div>
+        </div>
+
+        <div class="container mt-5">
+          <h2>Schnitzel Gerichte</h2>
+      </div>
+      <div class="container">
+        <div class="card-group">
+            <div class="card">
+              <img src="img/schnitzel.png" class="card-img-top">
+              <div class="card-body bg-dark text-light">
+                <h5 class="card-title">„Wiener Art" mit Salatbeilage</h5>
+                <p class="card-text">Ein Übetrieben geiler Cheese Burger den jeder mal probieren muss weil er richtig geil ist. Da kommt jeder auf seinen Geschmack</p>
+                <h5>14,90 €</h5>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/schnitzel.png" class="card-img-top">
+              <div class="card-body bg-dark text-light">
+                <h5 class="card-title">Mit Champignonrahmensoße</h5>
+                <p class="card-text">Ein Übetrieben geiler Cheese Burger den jeder mal probieren muss weil er richtig geil ist. Da kommt jeder auf seinen Geschmack</p>
+                <h5>15,50 €</h5>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/schnitzel.png" class="card-img-top">
+              <div class="card-body bg-dark text-light">
+                <h5 class="card-title">Mit Paprikarahmensoße</h5>
+                <p class="card-text">Ein Übetrieben geiler CheeseBurger den jeder mal probieren muss weil er richtig geil ist. Da kommt jeder auf seinen Geschmack</p>
+                <h5>15,50 €</h5>
+              </div>
+            </div>
+            <div class="card">
+                <img src="img/schnitzel.png" class="card-img-top">
+                <div class="card-body bg-dark text-light">
+                  <h5 class="card-title">Holsteiner Art (mit Spiegelei)</h5>
+                  <p class="card-text">Ein Übetrieben geiler CheeseBurger den jeder mal probieren muss weil er richtig geil ist. Da kommt jeder auf seinen Geschmack</p>
+                  <h5>14,90 €</h5>
+                </div>
+              </div>
+          </div>
+      </div>
+      <div class="container mt-5">
+        <h2>Getränke</h2>
+      </div>
+    </section>
+
+<!--Drink section card-->
+    <section class="transition container">
+      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Karte 1</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Karte 2</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+          <div class="row">
+            <div class="col-md text-center border">
+              <div class="row bg-primary text-light">
+                <div class="col-6">
+                  Alkoholfreie Getränke
+                </div>
+                <div class="col">
+                  0,5l
+                </div>
+                <div class="col">
+                  0,3l
+                </div>
+                <div class="col">
+                  Flasche
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Wasser(Classic, Medium, Still)
+                </div>
+                <div class="col">
+                  2,70€
+                </div>
+                <div class="col">
+                  3,60€
+                </div>
+                <div class="col">
+                  5,00€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Coca Cola
+                </div>
+                <div class="col">
+                  3,00€
+                </div>
+                <div class="col">
+                  3,80€
+                </div>
+                <div class="col">
+                  5,50€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Coca Cola light/zero
+                </div>
+                <div class="col">
+                  3,00€
+                </div>
+                <div class="col">
+                  3,80€
+                </div>
+                <div class="col">
+                  5,50€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Fanta, Sprite, Mezzo Mix
+                </div>
+                <div class="col">
+                  3,00€
+                </div>
+                <div class="col">
+                  3,80€
+                </div>
+                <div class="col">
+                  5,50€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Sport Vital
+                </div>
+                <div class="col">
+                  3,00€
+                </div>
+                <div class="col">
+                  3,80€
+                </div>
+                <div class="col">
+                  5,50€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">    
+                <div class="col-6">
+                  Schweppes Ginger Ale, Bitter Lemon, Tonic Water
+                </div>
+                <div class="col">
+                  3,00€
+                </div>
+                <div class="col">
+                  3,80€
+                </div>
+                <div class="col">
+                  5,50€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Red Bull 0,25l
+                </div>
+                <div class="col">
+                  3,00€
+                </div>
+                <div class="col">
+                  
+                </div>
+                <div class="col">
+                 
+                </div>
+              </div>
+              
+              <div class="row bg-primary text-light">
+                <div class="col-6">
+                  Warme Getränke
+                </div>
+                <div class="col">
+                  Tasse/Becher
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Kaffee
+                </div>
+                <div class="col">
+                  3,00€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Capuccino
+                </div>
+                <div class="col">
+                  3,60€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Latte Machiato
+                </div>
+                <div class="col">
+                  3,60€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Espresso
+                </div>
+                <div class="col">
+                  2,50€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Tee
+                </div>
+                <div class="col">
+                  2,60€
+                </div>
+              </div>
+
+              <div class="row bg-primary text-light">
+                <div class="col-6">
+                  Bier
+                </div>
+                <div class="col">
+                  0,3l
+                </div>
+                <div class="col">
+                  0,5l
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Flensburger vom Fass
+                </div>
+                <div class="col">
+                  3,30€
+                </div>
+                <div class="col">
+                  4,40€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Alster vom Fass
+                </div>
+                <div class="col">
+                  3,30€
+                </div>
+                <div class="col">
+                  4,40€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Original Hofbräu vom Fass
+                </div>
+                <div class="col">
+                  
+                </div>
+                <div class="col">
+                  5,00€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Schneider Weizen hell vom Fass
+                </div>
+                <div class="col">
+                  
+                </div>
+                <div class="col">
+                  4,40€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Schneider Weizen Original, Kristall, Alkoholfrei
+                </div>
+                <div class="col">
+                  
+                </div>
+                <div class="col">
+                  4,40€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Bananenweizen
+                </div>
+                <div class="col">
+                  
+                </div>
+                <div class="col">
+                  4,60€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Flens Flasche(0,33l), Edles Helles, Dunkel, Gold, Frei, Malz
+                </div>
+                <div class="col">
+                  3,30€
+                </div>
+                <div class="col">
+                  
+                </div>
+              </div>
+
+              <div class="row bg-primary text-light">
+                <div class="col-6">
+                  Gin
+                </div>
+                <div class="col">
+                  Longdrinks 4CL
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Bombay Gin
+                </div>
+                <div class="col">
+                  7,00€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Gardons Gin
+                </div>
+                <div class="col">
+                  6,00€
+                </div>
+              </div>
+              <div class="row bg-primary text-light">
+                <div class="col-6">
+                  Whiskey & Bourbon
+                </div>
+                <div class="col">
+                  
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Ballantines
+                </div>
+                <div class="col">
+                  6,00€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Jim Beam
+                </div>
+                <div class="col">
+                  6,00€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Tullamore Dew
+                </div>
+                <div class="col">
+                  7,00€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Jack Daniels
+                </div>
+                <div class="col">
+                  7,00€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Canadian Club
+                </div>
+                <div class="col">
+                  7,00€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Southern Comfort
+                </div>
+                <div class="col">
+                  6,00€
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-md text-center bg-dark border">
+              <div class="row bg-primary text-light">
+                <div class="col">
+                   Säfte/Nektar
+                </div>
+                <div class="col">
+                  0,3l
+                </div>
+                <div class="col">
+                  0,5l
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col">
+                   Apfel
+                </div>
+                <div class="col">
+                  3,40€
+                </div>
+                <div class="col">
+                  4,40€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col">
+                  Banane
+               </div>
+               <div class="col">
+                 3,40€
+               </div>
+               <div class="col">
+                 4,40€
+               </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col">
+                  Kirsche
+               </div>
+               <div class="col">
+                 3,40€
+               </div>
+               <div class="col">
+                 4,40€
+               </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col">
+                  Orange
+               </div>
+               <div class="col">
+                 3,40€
+               </div>
+               <div class="col">
+                 4,40€
+               </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col">
+                  Maracuja
+               </div>
+               <div class="col">
+                 3,40€
+               </div>
+               <div class="col">
+                 4,40€
+               </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col">
+                  Kiba
+               </div>
+               <div class="col">
+                 3,40€
+               </div>
+               <div class="col">
+                 4,40€
+               </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col">
+                  Ananas
+               </div>
+               <div class="col">
+                 3,40€
+               </div>
+               <div class="col">
+                 4,40€
+               </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col">
+                  Rhababer
+               </div>
+               <div class="col">
+                 3,40€
+               </div>
+               <div class="col">
+                 4,40€
+               </div>
+              </div>
+
+              <div class="row bg-primary text-light">
+                <div class="col">
+                   Sekt/Wein
+                </div>
+                <div class="col">
+                  0,1l
+                </div>
+                <div class="col">
+                  0,2l
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col">
+                   Sekt Hausmarke
+                </div>
+                <div class="col">
+                  4,30€
+                </div>
+                <div class="col">
+                  
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col">
+                  Prosecco Hausmarke
+                </div>
+                <div class="col">
+                  4,70€
+                </div>
+                <div class="col">
+                  
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col">
+                  Weiswein/Rotwein Hausmarke
+                </div>
+                <div class="col">
+                  
+                </div>
+                <div class="col">
+                  4,70€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col">
+                  Weissweinschorle
+                </div>
+                <div class="col">
+                  
+                </div>
+                <div class="col">
+                  3,60€
+                </div>
+              </div>
+
+              <div class="row bg-primary text-light">
+                <div class="col-6">
+                  Rum
+                </div>
+                <div class="col">
+                  Longdrinks 4CL
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Bacardi
+                </div>
+                <div class="col">
+                  7,00€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Havana 3 Jahre
+                </div>
+                <div class="col">
+                  6,00€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Havana 7 Jahre
+                </div>
+                <div class="col">
+                  7,00€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Captain Morgan
+                </div>
+                <div class="col">
+                  7,00€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Hansen Rum
+                </div>
+                <div class="col">
+                  6,00€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Rum 1878
+                </div>
+                <div class="col">
+                  6,00€
+                </div>
+              </div>
+    
+              <div class="row bg-primary text-light">
+                <div class="col-6">
+                  Vodka
+                </div>
+                <div class="col">
+                  
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Wodka Smirnoff
+                </div>
+                <div class="col">
+                  6,00€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Wodka Danzka
+                </div>
+                <div class="col">
+                  7,00€
+                </div>
+              </div>
+
+              <div class="row bg-primary text-light">
+                <div class="col-6">
+                  Likör
+                </div>
+                <div class="col">
+                  Longdrinks 4Cl
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Capmari
+                </div>
+                <div class="col">
+                  6,00€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Amaretto Kirsch
+                </div>
+                <div class="col">
+                  6,00€
+                </div>
+              </div>
+    
+              <div class="row bg-primary text-light">
+                <div class="col-6">
+                  Spirituosen
+                </div>
+                <div class="col">
+                  
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Pernod
+                </div>
+                <div class="col">
+                  6,00€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Oldesloer Korn
+                </div>
+                <div class="col">
+                  6,00€
+                </div>
+              </div>
+              <div class="row bg-dark text-light">
+                <div class="col-6">
+                  Sternmarke
+                </div>
+                <div class="col">
+                  6,00€
+                </div>
+              </div>            
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+        <div class="row">
+          <div class="col-md text-center border bg-dark text-light">
+            <div class="row bg-primary">
+              <div class="col-6">
+                Cocktails
+              </div>
+              <div class="col">
+                Mit Alkohol
+              </div>
+              <div class="col">
+                Ohne Alkohol
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Aperol Spritz
+              </div>
+              <div class="col">
+                6,50€
+              </div>
+              <div class="col">
+                
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Andalö/Sekt
+              </div>
+              <div class="col">
+                6,50€
+              </div>
+              <div class="col">
+                
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Sex on the Beach
+              </div>
+              <div class="col">
+                6,50€
+              </div>
+              <div class="col">
+                
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Pina Colada
+              </div>
+              <div class="col">
+                6,50€
+              </div>
+              <div class="col">
+                
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-6">
+                Mai Tai
+              </div>
+              <div class="col">
+                6,50€
+              </div>
+              <div class="col">
+                
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-6">
+                Strawberry Colada
+              </div>
+              <div class="col">
+                
+              </div>
+              <div class="col">
+                5,50€
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-6">
+                Sportsman
+              </div>
+              <div class="col">
+                
+              </div>
+              <div class="col">
+                5,50€
+              </div>
+            </div>
+            <div class="row bg-primary">
+              <div class="col-6">
+                Einzelflaschen
+              </div>
+              <div class="col">
+                0,7l
+              </div>
+            </div>
+            <div class="row bg-dark">
+              <div class="col-6">
+                Nr.3(Hausgemacht)
+              </div>
+              <div class="col">
+                18,00€
+              </div>
+            </div>
+            <div class="row bg-dark">
+              <div class="col-6">
+                Apfelkorn(Hausgemacht)
+              </div>
+              <div class="col">
+                20,00€
+              </div>
+            </div>
+            <div class="row bg-dark">
+              <div class="col-6">
+                Berliner Luft
+              </div>
+              <div class="col">
+                25,00€
+              </div>
+            </div>
+            <div class="row bg-primary">
+              <div class="col-6">
+                Flaschen inkl. 2 Flaschen Softgetränk
+              </div>
+              <div class="col">
+                Preis
+              </div>
+            </div>
+            <div class="row bg-dark">
+              <div class="col-6">
+                Sternmarke
+              </div>
+              <div class="col">
+                20,00€
+              </div>
+            </div>
+            <div class="row bg-dark">
+              <div class="col-6">
+                Oldesloer Korn
+              </div>
+              <div class="col">
+                30,00€
+              </div>
+            </div>
+            <div class="row bg-dark">
+              <div class="col-6">
+                Wodka Gorbatschow
+              </div>
+              <div class="col">
+                40,00€
+              </div>
+            </div>
+            <div class="row bg-dark">
+              <div class="col-6">
+                Ballantines
+              </div>
+              <div class="col">
+                50,00€
+              </div>
+            </div>
+            <div class="row bg-dark">
+              <div class="col-6">
+                Jim Beam
+              </div>
+              <div class="col">
+                50,00€
+              </div>
+            </div>
+            <div class="row bg-dark">
+              <div class="col-6">
+                Tullamore
+              </div>
+              <div class="col">
+                60,00€
+              </div>
+            </div>
+            <div class="row bg-dark">
+              <div class="col-6">
+                Flasche Sekt(Hausmarke)
+              </div>
+              <div class="col">
+                16,00€
+              </div>
+            </div>
+            <div class="row bg-dark">
+              <div class="col-6">
+                Flasche Wein(Hausmarke)
+              </div>
+              <div class="col">
+                18,00€
+              </div>
+            </div>
+            <div class="row bg-dark">
+              <div class="col-6">
+                Jack Daniels
+              </div>
+              <div class="col">
+                60,00€
+              </div>
+            </div>
+            <div class="row bg-dark">
+              <div class="col-6">
+                Havana Club 3 Jahre
+              </div>
+              <div class="col">
+                50,00€
+              </div>
+            </div>
+            <div class="row bg-dark">
+              <div class="col-6">
+                Havana Club 7 Jahre
+              </div>
+              <div class="col">
+                60,00€
+              </div>
+            </div>
+            <div class="row bg-dark">
+              <div class="col-6">
+                Bacardi
+              </div>
+              <div class="col">
+                50,00€
+              </div>
+            </div>
+            <div class="row bg-dark">
+              <div class="col-6">
+                Wodka Danzka
+              </div>
+              <div class="col">
+                60,00€
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md text-center border bg-dark text-light">
+            <div class="row bg-primary">
+              <div class="col-6">
+                Kurze
+              </div>
+              <div class="col">
+                2CL
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Ramazotti
+              </div>
+              <div class="col">
+                2,50€
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Jägermeister
+              </div>
+              <div class="col">
+                2,50€
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Ouzo
+              </div>
+              <div class="col">
+                2,50€
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Bommerlunder
+              </div>
+              <div class="col">
+                2,50€
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Gammel Dansk
+              </div>
+              <div class="col">
+                2,50€
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Wodka
+              </div>
+              <div class="col">
+                2,50€
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Korn/Apfelkorn
+              </div>
+              <div class="col">
+                2,50€
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Tquila Silber/Gold
+              </div>
+              <div class="col">
+                2,50€
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Berliner Luft
+              </div>
+              <div class="col">
+                2,50€
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Nr.3
+              </div>
+              <div class="col">
+                2,50€
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Saurer Apfel
+              </div>
+              <div class="col">
+                2,50€
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Sambuca
+              </div>
+              <div class="col">
+                2,50€
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Sangrita rot/grün
+              </div>
+              <div class="col">
+                2,50€
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Kleiner Feigling
+              </div>
+              <div class="col">
+                2,50€
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Dooley oder Baileys
+              </div>
+              <div class="col">
+                3,50€
+              </div>
+            </div>
+            <div class="row bg-primary">
+              <div class="col-6">
+                Grappa
+              </div>
+              <div class="col">
+                
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Di Otto Lune
+              </div>
+              <div class="col">
+                8,50€
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Prime Uve
+              </div>
+              <div class="col">
+                9,50€
+              </div>
+            </div>
+            <div class="row bg-primary">
+              <div class="col-6">
+                Pötte mit Softgetränk(mit Energy + 5,00 €)
+              </div>
+              <div class="col">
+                Preis
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Sternmarke
+              </div>
+              <div class="col">
+                15,00€
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Oldesloer Korn
+              </div>
+              <div class="col">
+                20,00€
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Bacardi
+              </div>
+              <div class="col">
+                25,00€
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Wodka
+              </div>
+              <div class="col">
+                25,00€
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Havana Club 3 Jahre
+              </div>
+              <div class="col">
+                25,00€
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Havana Club 7 Jahre
+              </div>
+              <div class="col">
+                30,00€
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Jack Daniels
+              </div>
+              <div class="col">
+                30,00€
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Jim Beam
+              </div>
+              <div class="col">
+                25,00€
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                Tullamore
+              </div>
+              <div class="col">
+                30,00€
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Impressum-->
+    <section>
+      <nav class="navbar justify-content-center bg-dark text-light mt-5">
+          <div class="container">
+              <div>
+                  <h5 class="text-primary">Impressum</h5>
+                  <h6 class="m-0">Christian Reinheimer</h6>
+                  <h6 class="m-0">Rote Straße 15</h6>
+                  <h6 class="mb-0">24937 Flensburg</h6>
+                  <h6 class="mb-3">Parkhaus, 4. OG</h6>
+                  <h6 class="mb-0 text-primary">Steuernummern</h6>
+                  <h6 class="mb-0">Ust.IdNr.:DE337384814</h6>
+                  <h6 class="mb-3">St.-Nr.:1516506806</h6>
+                  <div class="d-flex just my-1">
+                      <img src="img/phone-30-24.png" alt="">
+                      <h6 class="my-0 mx-1">0461-48087676</h6>
+                  </div>
+                  <div class="d-flex just my-1">
+                      <img src="img/mail-24.png" alt="">
+                      <h6 class="my-0 mx-1">Flensburger-bowlingcenter@t-online.de</h6>
+                  </div>
+                  <div class="d-flex just">
+                      <img src="img/globe-4-24.png" alt="">
+                      <h6 class="my-0 mx-1">Flensburger-Bowlingcenter.de</h6>
+                  </div>
+              </div>
+              <div>
+              </div>
+          </div>
+      </nav>
+  </section>
+</body>
+</html>
