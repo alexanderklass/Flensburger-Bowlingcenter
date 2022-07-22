@@ -1,12 +1,31 @@
+var data = [
+    {
+        username: "christian",
+        password: "ChrisAdmin"
+    },
+
+    {
+        username: "marlon",
+        password: "fettevollmilf88"
+    },
+
+    {
+        username: "nico",
+        password: "mitarbeiter1"
+    }
+]
+
 function check(){
-    let login_name = document.getElementById("name").value;
-    let login_password = document.getElementById("password").value;
+    let username = document.getElementById("username").value;
+    let password = document.getElementById("password").value;
+
+    for (i = 0; i < data.length; i++){
+        if(username == data[i].username && password == data[i].password){
+            window.location.href = "mitarbeiterportal.html";
+            return
+        }
     
-    if (login_name && login_password == "admin"){
-        window.location.href = "mitarbeiterportal.html";
     }
-    else{
-        alert("passwort oder name sind falsch")
-    }
+    alert("Benutzername oder Passwort ist falsch");
 }
 
