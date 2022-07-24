@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/dark-mode.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="icon" href="img/tab-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="JavaScript/bootstrap-5.2.0.min.js" defer></script>
+    <script src="JavaScript/jquery-3.2.1.slim.min.js" defer></script>
+    <script src="JavaScript/login.js"defer></script>
+    <script src="JavaScript/main.js"></script>
+    <title>Mitarbeiterportal</title>
+</head>
+<body>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var calendarEl = document.getElementById('calendar');
+      var calendar = new FullCalendar.Calendar(calendarEl, {
+        initialView: 'dayGridMonth'
+      });
+      calendar.render();
+    });
+  </script>
+    <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px; height: 100%; position: fixed; left: 0; top: 0; bottom: 0;">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+          <img src="img/bowling-logo-weißeschrift.png" class="w-100">
+        </a>
+        <hr>
+        <div class="d-flex justify-content-center">
+          <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <button class="nav-link active text-light id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+              <img src="img/planner-24.png" class="mx-1">
+              Arbeitsplan
+            </button>
+            <button class="nav-link text-light" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+              <img src="img/list-ingredients-24.png" class="mx-1">
+              Buchungen
+            </button>
+          </div>
+        </div>
+    </div>
+    <div class="tab-content container lign-items-center justify-content-center" id="v-pills-tabContent">
+      <div class="tab-pane fade mt-5 show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+        <div class="" id="calendar">
+
+        </div>
+      </div>
+      <div class="tab-pane fade mt-5" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+        Buchungen
+        </div>
+      </div>
+    </div>
+</body>
+</html>
